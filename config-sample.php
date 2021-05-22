@@ -30,18 +30,18 @@ class Config {
     // GENERAL SETTINGS
     // ------------------------------------------------------------------------
 
-    const BASE_URL      = 'http://url-to-easyappointments-directory';
+    const BASE_URL      = 'http://localhost:8080';
     const LANGUAGE      = 'english';
-    const DEBUG_MODE    = FALSE;
+    const DEBUG_MODE    = TRUE;
 
     // ------------------------------------------------------------------------
     // DATABASE SETTINGS
     // ------------------------------------------------------------------------
 
-    const DB_HOST       = 'localhost';
+    const DB_HOST       = 'db';
     const DB_NAME       = 'easyappointments';
     const DB_USERNAME   = 'root';
-    const DB_PASSWORD   = 'root';
+    const DB_PASSWORD   = 'mariadb';
 
     // ------------------------------------------------------------------------
     // GOOGLE CALENDAR SYNC
