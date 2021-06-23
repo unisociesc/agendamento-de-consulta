@@ -21,7 +21,7 @@ root {
    -------------------------------------------------------------------- */
 
 #header {
-    background-color: #429a82;
+    background-color: #353535;
     box-shadow: none;
     border-radius: 0;
     padding: 0;
@@ -66,11 +66,11 @@ root {
 }
 
 #header #header-menu .nav-item:hover {
-    background: #3a8873;
+    background: #010883;
 }
 
 #header #header-menu .nav-item.active {
-    background: #2e6a5b;
+    background: #00066f;
 }
 
 #footer {
@@ -148,7 +148,7 @@ body .modal .modal-title {
 
 body .modal-header {
     padding: 20px 15px;
-    background: #429a82;
+    background: #00066f;
 }
 
 body .modal-header h3 {
@@ -158,7 +158,7 @@ body .modal-header h3 {
 }
 
 body .modal-header .close {
-    color: #12482a;
+    color: #00066f;
 }
 
 body .modal-content {
@@ -298,7 +298,7 @@ body legend {
 #calendar-page #calendar-toolbar {
     margin-bottom: 15px;
     color: white;
-    background: #353535;
+    background: #00066f;
     padding: 15px 0;
 }
 
@@ -377,33 +377,39 @@ body legend {
 
 #calendar-page #calendar .fc-time {
     font-size: 10px;
+    background: #ff4672;
 }
 
 #calendar-page #calendar .fc-break {
-    background-image: url('../img/break.jpg');
+    background-image: url('../img/custom.jpg');
 }
 
 #calendar-page #calendar .fc-custom {
     background-image: url('../img/custom.jpg');
+
 }
 
 #calendar-page .fc-header {
     margin-bottom: 10px;
+
 }
 
 #calendar .fc-time-grid-event.fc-short .fc-title {
     font-size: .7em;
+
 }
 
 #calendar .fc-header-title h2 {
     font-size: 16px;
     margin: 0;
     line-height: 26px;
+
 }
 
 #calendar .fc-header .fc-button {
     margin-bottom: 8px;
     background-image: none !important;
+
 }
 
 #calendar .fc-agenda-allday .fc-day-content {
