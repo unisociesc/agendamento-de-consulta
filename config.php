@@ -30,7 +30,7 @@ class Config {
     // GENERAL SETTINGS
     // ------------------------------------------------------------------------
 
-    const BASE_URL      = 'http://agendamento-consulta.btamer.tech';
+    const BASE_URL      = 'https://agendamento-de-consulta.herokuapp.com';
     const LANGUAGE      = 'portuguese-br';
     const DEBUG_MODE    = TRUE;
 
