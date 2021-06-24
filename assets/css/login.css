@@ -3,7 +3,7 @@ body {
     height: 100vh;
     display: table-cell;
     vertical-align: middle;
-    background-color: #f5f8fa;
+    background-color: #e6e8fc;
 }
 
 #login-frame {
@@ -18,5 +18,9 @@ body {
     #login-frame {
         width: 100%;
         padding: 20px;
+
+
     }
-}
+
+    }
+
