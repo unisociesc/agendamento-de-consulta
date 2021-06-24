@@ -78,7 +78,7 @@ class Timezones {
      */
     public function get_default_timezone()
     {
-        return 'UTC';
+        return 'Brazil/East';
     }
 
     /**
