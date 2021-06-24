@@ -47,8 +47,6 @@
   *
   */
 
- require_once __DIR__ . '/config.php';
-
 
  /*
   *---------------------------------------------------------------
@@ -79,7 +77,7 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
-	define('ENVIRONMENT', (Config::DEBUG_MODE) ? 'development' : 'production');
+	define('ENVIRONMENT', (getenv('DEBUG_MODE')) ? 'development' : 'production');
 
 /*
  *---------------------------------------------------------------

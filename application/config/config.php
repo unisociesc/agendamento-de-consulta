@@ -10,7 +10,7 @@
 */
 $config['version'] = '1.4.1'; // This must be changed manually.
 $config['release_label'] = ''; // Leave empty for no title or add Alpha, Beta etc ...
-$config['debug'] = Config::DEBUG_MODE;
+$config['debug'] = getenv('DEBUG_MODE');
 
 /*
 |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ $config['debug'] = Config::DEBUG_MODE;
 | path to your installation.
 |
 */
-$config['base_url'] = Config::BASE_URL;
+$config['base_url'] = getenv('BASE_URL') ?? "https://" . getenv('HEROKU_APP_NAME') . ".herokuapp.com" ;
 
 /*
 |--------------------------------------------------------------------------
@@ -100,15 +100,15 @@ $config['language'] = isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) ?
         'it' => 'italian',
         'ja' => 'japanese',
         'pl' => 'polish',
-        'pt' => 'portuguese',
+        'pt' => 'portuguese-br',
         'ro' => 'romanian',
         'ru' => 'russian',
         'sk' => 'slovak',
         'es' => 'spanish',
         'tr' => 'turkish',
-        'sv' => 'swedish'
+        'sv' => 'swedish',
     ][substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2)]
-    : Config::LANGUAGE;
+    : getenv('LANGUAGE');
 
 /*
 |--------------------------------------------------------------------------
