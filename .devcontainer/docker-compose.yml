@@ -15,6 +15,15 @@ services:
         USER_UID: 1000
         USER_GID: 1000
     working_dir: /workspace
+    environment:
+      DEBUG_MODE: "true"
+      BASE_URL: http://localhost:8080
+      LANGUAGE: portuguese-br
+      DB_HOST: db 
+      DB_USERNAME: root
+      DB_PASSWORD: mariadb
+      DB_NAME: easyappointments
+
     volumes:
       - ..:/workspace:cached
 
