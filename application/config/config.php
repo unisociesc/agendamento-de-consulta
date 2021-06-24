@@ -26,7 +26,7 @@ $config['debug'] = getenv('DEBUG_MODE');
 | path to your installation.
 |
 */
-$config['base_url'] = getenv('BASE_URL') ?? "https://" . getenv('HEROKU_APP_NAME') . ".herokuapp.com" ;
+$config['base_url'] = (getenv('HEROKU_APP_NAME')) ? "https://".(getenv('HEROKU_APP_NAME')).".herokuapp.com" : getenv('BASE_URL') ;
 
 /*
 |--------------------------------------------------------------------------
