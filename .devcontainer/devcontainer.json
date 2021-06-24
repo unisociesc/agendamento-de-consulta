@@ -30,8 +30,7 @@
 		"mtxr.sqltools",
 		"mtxr.sqltools-driver-mysql",
 		"ms-azuretools.vscode-docker",
-		"eamodio.gitlens"
-
+		"eamodio.gitlens",
 	],
 	// For use with PHP or Apache (e.g.php -S localhost:8080 or apache2ctl start)
 	"forwardPorts": [
