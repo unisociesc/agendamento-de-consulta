@@ -23,7 +23,7 @@ class Timezones {
     /**
      * @var string
      */
-    protected $default = 'UTC';
+    protected $default = 'Brazil/East';
 
     /**
      * @var array
@@ -33,7 +33,7 @@ class Timezones {
             'Brazil/Acre' => 'Acre (-5:00)',
             'Brazil/West' => 'Amazonas (-4:00)',
             'Brazil/East' => 'Brasília (-3:00)',
-            'Brazil/DeNoronha' => 'Fernando de Noronhã (-2:00)',
+            'Brazil/DeNoronha' => 'Fernando de Noronha (-2:00)',
         ]
     ];
 
@@ -78,7 +78,7 @@ class Timezones {
      */
     public function get_default_timezone()
     {
-        return 'UTC';
+        return 'Brazil/East';
     }
 
     /**

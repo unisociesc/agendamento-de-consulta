@@ -40,7 +40,7 @@ body {
     overflow: auto;
     height: auto;
     padding: 20px 15px;
-    background: #429a82;
+    background: #00066f;
 }
 
 #book-appointment-wizard #company-name {
@@ -64,6 +64,7 @@ body {
 #book-appointment-wizard #book-appointment-form #book-appointment-submit {
     width: 100%;
     margin-right: 0;
+    background: #00066f;
 }
 
 #book-appointment-wizard #form-message {
@@ -102,10 +103,12 @@ body {
 #book-appointment-wizard .wizard-frame .command-buttons .btn {
     min-width: 120px;
     margin-right: 10px;
+    background: #00066f;
 }
 
 #book-appointment-wizard .wizard-frame .command-buttons .btn:last-child {
     margin-right: 0;
+    background: #00066f;
 }
 
 #book-appointment-wizard .wizard-frame #select-date {
@@ -129,7 +132,7 @@ body {
     height: 35px;
     width: 35px;
     float: left;
-    background: #225d4d;
+    background: #ff4672;
     padding: 8px;
     margin-right: 12px;
     margin-top: 6px;
@@ -145,7 +148,7 @@ body {
     font-size: 12px;
     display: block;
     text-align: center;
-    color: #0bb98d;
+    color: #ff4672;
     transition: all .3s linear;
     cursor: default;
 }
@@ -159,10 +162,11 @@ body {
     padding: 7px;
     margin-right: 13px;
     margin-top: 0;
+
 }
 
 #book-appointment-wizard .active-step strong {
-    color: #429a82;
+    color: #ff4672;
     font-size: 21px;
 }
 
@@ -189,8 +193,8 @@ body {
 }
 
 #book-appointment-wizard #available-hours .selected-hour {
-    background-color: #439a82;
-    border-color: #439a82;
+    background-color: #ff4672;
+    border-color: #ff4672;
     color: white;
 }
 
@@ -228,7 +232,7 @@ body {
 }
 
 #book-appointment-wizard .captcha-title .fa-sync-alt:hover {
-    color: #1A865F;
+    color: #ff4672;
 }
 
 #book-appointment-wizard .captcha-image {

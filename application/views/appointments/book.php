@@ -215,7 +215,7 @@
                             <div id="select-time">
                                 <div class="form-group">
                                     <label for="select-timezone"><?= lang('timezone') ?></label>
-                                    <?= render_timezone_dropdown('id="select-timezone" class="form-control" value="UTC"'); ?>
+                                    <?= render_timezone_dropdown('id="select-timezone" class="form-control" value="Brazil/East"'); ?>
                                 </div>
 
                                 <div id="available-hours"></div>
