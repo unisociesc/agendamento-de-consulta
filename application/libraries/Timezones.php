@@ -29,7 +29,7 @@ class Timezones {
      * @var array
      */
     protected $timezones = [
-        'Brazil' => [
+        'Brasil' => [
             'Brazil/Acre' => 'Acre (-5:00)',
             'Brazil/West' => 'Amazonas (-4:00)',
             'Brazil/East' => 'Brasília (-3:00)',
